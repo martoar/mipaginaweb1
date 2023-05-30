@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Uso de múltiples clases de CSS</title>
+        <style>
+            body {
+                background-color:rgb(181, 161, 181);
+                border:20px outset pink;
+
+            }
+            p {
+                font-family: monospace;
+            }
+            
+            #donut-header {
+                font-family: "Garamond", "Palatino", serif;
+            }
+            
+            .fact {
+                border-top: 1px solid rgb(96, 93, 125);
+                border-bottom: 1px solid rgb(222, 222, 222);
+                padding-top: 6px;
+                padding-bottom: 5px;
+
+            }
+            .warning{
+                color:white;
+                background-color:rgb(179, 32, 84);
+                
+                }
+            p.warning{
+                border:6px solid orange;
+            }
+            #postre{
+                color:red;
+                font-family:arial;
+                font-size:21px;
+            }
+            #parte1{
+                margin-right:36px;
+                margin-left:45px;
+                border:8px solid blue;
+                border-top:10px solid purple;
+                padding:15px;
+            }
+            #parte2{
+              width:273px;
+              height:209px;
+              border:20px double green;
+              overflow:auto;
+              margin-left:119px;
+            }
+        </style>
+    </head>
+    <body>
+        
+    <h1 id="donut-header">Información nutricional de las donas</h1>
+
+        <p class="fact warning">
+            Advertencia: Comer demasiadas donas puede ser malo para la salud.
+        </p>
+        <div id="parte1">
+ 
+        <p>Una dona es un tipo de <strong class="warning">Frito</strong> pastelería de masa o comida de <span id="postre">postre</span>. La dona es popular en muchos países y se prepara de varias formas como un refrigerio dulce que se puede hacer en casa o comprar en panaderías, supermercados, puestos de comida y tiendas especializadas en franquicias.</p>
+        </div>
+        
+        <p class="fact">
+            ¿Sabías?también se puede escribir"Donut."
+        </p>
+        
+       <div id="parte2">
+        <p>Los dos tipos más comunes son los<strong>rosquilla de anillo toroidal</strong> y la <strong>rosquilla rellena</strong>—que se inyecta con conservas de frutas, crema, natillas u otros rellenos dulces. Se puede cocinar un pequeño trozo esférico de masa como un agujero de dona. Otras formas incluyen anillos, bolas y esferas aplanadas, así como formas de orejas, giros y otras formas. Las variedades de rosquillas también se dividen en rosquillas tipo pastel y rosquillas levantadas. <br>Las donas caseras, también conocidas como donuts o rosquillas, son muy fáciles de preparar y constituyen una de las meriendas favoritas de los niños. La masa para donas que te enseñamos a preparar continuación la podrás usar para hacer donas fritas y también para hacer donas al horno. Cuando estén listas, las podrás servir sin ningún tipo de decoración o complementarlas con tu cobertura favorita o azúcar.</p>
+        </div>
+            
+
+    </body>
+</html>
